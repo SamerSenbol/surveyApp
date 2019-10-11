@@ -13,6 +13,7 @@
 
 
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="container">
@@ -35,9 +36,10 @@
                 <button type="submit" name="submit" class="btn btn-primary">نعم</button>
                 <h6>شارك فصوتك يحدث فرقاً</h6>
             </form>
-            <a data-text="Your message goes here.." data-link="http://w3lessons.info"
-            class="whatsapp w3_whatsapp_btn w3_whatsapp_btn_large">Share</a>
         </div>
+            <a data-text="شارك فصوتك يحدث فرقاً" data-link="http://www.doitonline.se/" class="whatsapp w3_whatsapp_btn w3_whatsapp_btn_large">Share</a>
     </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </body>
 </html>
