@@ -16,7 +16,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $sql="INSERT INTO `users`(`Email`, `Tel`, `Date`, `ipAddress` ) VALUES ('$Email','$Tel','$date', '$line')";
     $data = mysqli_query($con,$sql);
        if($data){
-        echo "<h1>Thank you</h1>";
+        echo "<h1>شكراً لكم على المشاركة</h1>";
        }
     }
     else{

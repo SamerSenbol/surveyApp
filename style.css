@@ -1,9 +1,10 @@
 body{
-    background-color: rosybrown
+    background-color: rgb(7, 170, 211);
+    padding: 12px;
 }
 
-h1{
-    color: blue
+h3{
+    color:#FFDC66
 }
 .w3_whatsapp_btn {
     background-image: url('icon.png');

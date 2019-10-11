@@ -18,28 +18,31 @@
 <body>
     <div class="container">
         <div class="row justify-content-md-center">
-            <p>ياترى في حدا متلى حابب يشتغل كشوفير سيارة شحن او باص بس في كتير عوائق
-            عم تواجهو؟خلينا نوصل صوتنا للجهات المعنية بالسويد لحى يلاقولنا حل ويساعدونا</p> <br><br>
+            <h3>ياترى في حدا متلى حابب يشتغل كشوفير سيارة شحن او باص بس في كتير عوائق عم تواجهو؟</h3>
+            <h3>خلينا نوصل صوتنا للجهات المعنية بالسويد حتى يلاقولنا حل ويساعدونا</h3>
             <form action="insert.php" method="POST">
-                <div class="form-group">
-
+                <div class="form-group"> <br><br>
                     <h6>اذا كنت ترغب بمتابعة كل مايتعلق بهذا الشأن يمكنك ترك رقمك او ايميلك وسنعلمك بكل جديد</h6>
                     <label for="exampleInputEmail1">Tel</label>
-                    <input type="text" name="Tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Tel">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your Tel with anyone else.</small>
+                    <input type="text" name="Tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="رقم الموبايل">
+                    <small id="emailHelp" class="form-text text-muted">.لن نشارك رقم الموبايل الخاص بك مع أي شخص آخر</small>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Email address</label>
-                    <input type="email" name="Email" class="form-control" id="exampleInputPassword1" placeholder="Enter Email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <input type="email" name="Email" class="form-control" id="exampleInputPassword1" placeholder="الإيميل">
+                    <small id="emailHelp" class="form-text text-muted">.لن نشارك الإيميل الخاص بك مع أي شخص آخر</small>
                 </div>
-                <button type="submit" name="submit" class="btn btn-primary">نعم</button>
                 <h6>شارك فصوتك يحدث فرقاً</h6>
+                <button type="submit" name="submit" class="btn btn-primary">نعم</button><br><br>
             </form>
         </div>
-            <a data-text="شارك فصوتك يحدث فرقاً" data-link="http://www.doitonline.se/" class="whatsapp w3_whatsapp_btn w3_whatsapp_btn_large">Share</a>
+        <div class="row justify-content-md-center">
+            <div class="whatsup">
+                <h6>شارك التصويت مع الأصدقاء عبر الواتس أب</h6>
+                <a data-text="شارك فصوتك يحدث فرقاً" data-link="http://www.doitonline.se/" class="whatsapp w3_whatsapp_btn w3_whatsapp_btn_large">مشاركة</a>
+            </div>
+        </div>
     </div>
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </body>
 </html>
