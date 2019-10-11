@@ -1,10 +1,6 @@
 <?php
-$con = mysqli_connect('localhost','root','','surveyApp');
 
-
-if(!$con){
-    echo'Not connected to the server';
-}
+include_once 'db.php';
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     //getting form input values
