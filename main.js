@@ -28,7 +28,7 @@ $(document).ready(function() {
     var whatsapp_url = "whatsapp://send?text=" + message;
     window.location.href = whatsapp_url;
     } else {
-    alert("Please share this article in mobile device");
+    alert("يرجى مشاركة هذا التصويت عبر الواتس أب في الجهاز المحمول");
     }
     });
     });
