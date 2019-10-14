@@ -3,11 +3,11 @@ include "./includes/html-start.php";
 ?>
     <div class="container">
         <div class="row justify-content-md-center">
-            <h5>ياترى في حدا متلى حابب يشتغل كشوفير سيارة شحن او باص بس في كتير عوائق عم تواجهو؟</h5>
+            <h5>ياترى في حدا متلى حابب يشتغل كشوفير سيارة شحن أو باص بس في كتير عوائق عم تواجهو؟</h5>
             <h5>خلينا نوصل صوتنا للجهات المعنية بالسويد حتى يلاقولنا حل ويساعدونا</h5>
             <form action="insert.php" method="POST">
                 <div class="form-group"> <br><br>
-                    <h6>اذا كنت ترغب بمتابعة كل مايتعلق بهذا الشأن يمكنك ترك رقمك او ايميلك وسنعلمك بكل جديد</h6>
+                    <h6>إذا كنت ترغب بمتابعة كل مايتعلق بهذا الشأن يمكنك ترك رقمك أو إيميلك وسنعلمك بكل جديد</h6>
                     <label for="exampleInputEmail1">Tel</label>
                     <input type="text" name="Tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="رقم الموبايل">
                     <small id="emailHelp" class="form-text text-muted">.لن نشارك رقم الموبايل الخاص بك مع أي شخص آخر</small>
