@@ -1,7 +1,6 @@
 <?php
 include "./includes/html-start.php";
 include_once 'db.php';
-
 ?>
 <table class="table table-bordered table-hover">
     <thead>
@@ -16,8 +15,9 @@ include_once 'db.php';
     <tbody>
         <?php   
         $sql = "SELECT * FROM users";
-        $users = mysqli_query($con,$sql);  
-        while($row = mysqli_fetch_assoc($users)) {
+        $users = mysqli_query($con,$sql);
+
+        while($row = mysqli_fetch_assoc($users)){
             $Nu       = $row['Nu'];
             $Email    = $row['Email'];
             $Tel      = $row['Tel'];
@@ -34,6 +34,8 @@ include_once 'db.php';
 
             echo "</tr>";
         }
+        
+        $con->close();
         ?>
     </tbody>
 </table>

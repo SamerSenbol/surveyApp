@@ -1,8 +1,10 @@
 <?php
 
-$con = mysqli_connect('localhost','root','','surveyApp');
+$con = mysqli_connect('doitonline.se.mysql','doitonline_se_surveyapp','123456','doitonline_se_surveyapp');
 
 
 if(!$con){
-    echo'Not connected to the server';
+    die("Database connection failed");
 }
+
+//$con->close();
