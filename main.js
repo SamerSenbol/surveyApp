@@ -31,4 +31,9 @@ $(document).ready(function() {
     alert("يرجى مشاركة هذا التصويت عبر الواتس أب في الجهاز المحمول");
     }
     });
+
+      // Toggle Form Fields
+      $('.products .product i').on('click',function(){
+        $(this).toggleClass('fa-plus fa-minus').next('p').slideToggle();
+    });
     });

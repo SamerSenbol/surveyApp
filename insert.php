@@ -13,8 +13,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   
     $sql="INSERT INTO `users`(`Email`, `Tel`, `Date`, `ipAddress` ) VALUES ('$Email', '$Tel' ,'$date' ,'$line')";
     $data = mysqli_query($con, $sql);
-       if($data){
-        echo "<h1>شكراً لكم على المشاركة</h1>";
+      if($data){
+      header("Location: thanks.php"); /* Redirect browser */
+      exit();
     }
     else{
     printf("Error message: %s\n", mysqli_error($con));
