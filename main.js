@@ -1,4 +1,28 @@
 $(document).ready(function() {
+
+    //Popup
+    $('.show-popup').click(function(){
+        $($(this).data('popup')).fadeIn();
+    });
+
+    $('.popup').click(function(){
+        $(this).fadeOut();
+    });
+
+  /*   $('.popup .inner').click(function(e){
+       e.stopPropagation();
+    });
+
+    $('.popup .close').click(function(e){
+        e.preventDefault();
+       $(this).parentsUntil('.popup').parent().fadeOut();
+    });
+
+    $(document).keydown(function(e){
+        if(e.keyCode == 27){
+            $('.popup').fadeOut();
+        } */
+    });
    
     var isMobile = {
     Android: function() {
@@ -32,8 +56,4 @@ $(document).ready(function() {
     }
     });
 
-      // Toggle Form Fields
-      $('.products .product i').on('click',function(){
-        $(this).toggleClass('fa-plus fa-minus').next('p').slideToggle();
-    });
     });

@@ -2,10 +2,11 @@
 include "./includes/html-start.php";
 ?>
     <div class="container">
-        <div class="row" id="header">
+        <div class="row" id="hader">
 
-            <div class="col-12">
-                <h1>إستبيان</h1>
+            <div class="col-sm-12">
+                <h3>استبيان</h3>
+                <img src="./images/header.jpg" class="img-responsive" width= "100%">
             </div>
 
         </div>
@@ -13,19 +14,18 @@ include "./includes/html-start.php";
         <div class="row" id="message">
 
             <div class="col-12">
-                <h5>مبادرة لجمع أصوات الأشخاص المتحدثين باللغة العربية الذين يرغبون في العمل في المجالات التالية</h5>
-            </div>
+                
+                <br><h5>مبادرة طيبه من أحد الإخوة المهندسين لتسهيل دخول الأشخاص الذين يرغبون بالعمل بمهنة سائق في السويد
+                تم تقديم مخطط مشروع بهذا الشأن لبلدية ترولهتان في السويد وتم الحصول على موافقة مبدئية لهذا المشروع بشرط جمع
+                أصوات لعدد لا بأس به من الأشخاص الذين يرغبون في الحصول على تصريح عمل في هذا المجال</h5><br><br>
 
-            <div class="col-12">
+                <h5>نرجو منكم دعم هذا المشروع عن طريق النشر او مشاركته مع من يرغب بالعمل ضمن المجالات التالية| </h5>
                 <h6> (Taxi förare)شوفير تاكسي -</h6>
                 <h6> (Färdtjänst)خدمة نقل -</h6>
                 <h6> (Busschaufför)شوفير باص -</h6>
                 <h6> (Lastbilsförare)شوفير شحن -</h6>
-            </div>
+                <h5>ولكم منا جزيل الشكر</h5>
 
-            <div class="col-12">
-                <h5>لنوصل صوتنا إلى الجهات المسؤلة في السويد لإيجاد حل ومساعدتنا في الحصول على رخصة العمل ودخول سوق
-                    العمل السويدي</h5>
             </div>
 
         </div>
@@ -35,6 +35,7 @@ include "./includes/html-start.php";
             
             <div class="col-sm-12 col-md-4">
                 <form action="insert.php" method="POST">
+                     <br>   <h6>إذا كنت ترغب بمتابعة كل مايتعلق بهذا الشأن يمكنك ترك رقمك أو إيميلك وسنعلمك بكل جديد</h6>
                     <div class="form-group"> <br><br>
                     <input type="text" name="Tel" class="form-control" id="exampleInputEmail1"
                     aria-describedby="telHelp" placeholder="رقم الموبايل">
@@ -48,8 +49,7 @@ include "./includes/html-start.php";
                             آخر</small>
                         </div>
                         <h6>شارك فصوتك يحدث فرقاً</h6>
-                        <button type="submit" name="submit" class="btn btn-primary">نعم</button><br><br>
-                        <h6>إذا كنت ترغب بمتابعة كل مايتعلق بهذا الشأن يمكنك ترك رقمك أو إيميلك وسنعلمك بكل جديد</h6>
+                        <button type="submit" name="submit" class="btn btn-primary show-popup">نعم</button><br><br>
                     </form>
                 </div>
             </div>
@@ -74,8 +74,13 @@ include "./includes/html-start.php";
                             class="whatsapp w3_whatsapp_btn w3_whatsapp_btn_large">مشاركة</a>
                     </div>
     
+                    <!--Start popup-->
+                    <span class="show-popup" data-popup=".first-popup">Show 1set Popup</span>
+                    <span class="show-popup" data-popup=".second-popup">Show 2nd Popup</span>
+                    <!--End popup-->
                 </div>
             </div>
+
         </div>  
         <?php
 include "./includes/footer.php";
