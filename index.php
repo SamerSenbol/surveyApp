@@ -5,7 +5,6 @@ include "./includes/html-start.php";
         <div class="row" id="hader">
 
             <div class="col-sm-12">
-                <h3>استبيان</h3>
                 <img src="./images/header.jpg" class="img-responsive" width= "100%">
             </div>
 
@@ -19,7 +18,7 @@ include "./includes/html-start.php";
                 تم تقديم مخطط مشروع بهذا الشأن لبلدية ترولهتان في السويد وتم الحصول على موافقة مبدئية لهذا المشروع بشرط جمع
                 أصوات لعدد لا بأس به من الأشخاص الذين يرغبون في الحصول على تصريح عمل في هذا المجال</h5><br><br>
 
-                <h5>نرجو منكم دعم هذا المشروع عن طريق النشر او مشاركته مع من يرغب بالعمل ضمن المجالات التالية| </h5>
+                <h5>نرجو منكم دعم هذا المشروع عن طريق النشر او مشاركته مع من يرغب بالعمل ضمن المجالات التالية</h5>
                 <h6> (Taxi förare)شوفير تاكسي -</h6>
                 <h6> (Färdtjänst)خدمة نقل -</h6>
                 <h6> (Busschaufför)شوفير باص -</h6>
@@ -35,7 +34,7 @@ include "./includes/html-start.php";
             
             <div class="col-sm-12 col-md-4">
                 <form action="insert.php" method="POST">
-                     <br>   <h6>إذا كنت ترغب بمتابعة كل مايتعلق بهذا الشأن يمكنك ترك رقمك أو إيميلك وسنعلمك بكل جديد</h6>
+                    <br><h6>إذا كنت ترغب بمتابعة كل مايتعلق بهذا الشأن يمكنك ترك رقمك أو إيميلك وسنعلمك بكل جديد</h6>
                     <div class="form-group"> <br><br>
                     <input type="text" name="Tel" class="form-control" id="exampleInputEmail1"
                     aria-describedby="telHelp" placeholder="رقم الموبايل">
@@ -49,7 +48,7 @@ include "./includes/html-start.php";
                             آخر</small>
                         </div>
                         <h6>شارك فصوتك يحدث فرقاً</h6>
-                        <button type="submit" name="submit" class="btn btn-primary show-popup">نعم</button><br><br>
+                        <button type="submit" name="submit" class="btn btn-primary">نعم</button><br><br>
                     </form>
                 </div>
             </div>
@@ -75,10 +74,35 @@ include "./includes/html-start.php";
                     </div>
     
                     <!--Start popup-->
+                    <div id="dialog" title="thanks">
+                    </div>
                     <span class="show-popup" data-popup=".first-popup">Show 1set Popup</span>
-                    <span class="show-popup" data-popup=".second-popup">Show 2nd Popup</span>
                     <!--End popup-->
                 </div>
+
+                <!--Start Popup-->
+            <div class="popup first-popup">
+                <div class="inner">
+                    <h2>First Popup</h2><br>
+                    <p>  
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    corrupti magnam sequi ad!
+                    </p>
+                    <button class="close">Close</button> 
+                </div>
+            </div>
+            <div class="popup second-popup">
+                <div class="inner">
+                    <h2>Second Popup</h2><br>
+                    <p>  
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    corrupti magnam sequi ad!
+                    </p>
+                    <button class="close">Close</button> 
+                </div>
+            </div>
+    
+            <!--End Popup-->
             </div>
 
         </div>  

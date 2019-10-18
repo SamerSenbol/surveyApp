@@ -1,29 +1,5 @@
 $(document).ready(function() {
 
-    //Popup
-    $('.show-popup').click(function(){
-        $($(this).data('popup')).fadeIn();
-    });
-
-    $('.popup').click(function(){
-        $(this).fadeOut();
-    });
-
-  /*   $('.popup .inner').click(function(e){
-       e.stopPropagation();
-    });
-
-    $('.popup .close').click(function(e){
-        e.preventDefault();
-       $(this).parentsUntil('.popup').parent().fadeOut();
-    });
-
-    $(document).keydown(function(e){
-        if(e.keyCode == 27){
-            $('.popup').fadeOut();
-        } */
-    });
-   
     var isMobile = {
     Android: function() {
     return navigator.userAgent.match(/Android/i);
@@ -55,5 +31,39 @@ $(document).ready(function() {
     alert("يرجى مشاركة هذا التصويت عبر الواتس أب في الجهاز المحمول");
     }
     });
+    
+});
+//Popup
+ $('.show-popup').click(function(){
+    $($(this).data('popup')).fadeIn();
+});
 
+$('.popup').click(function(){
+    $(this).fadeOut();
+});
+
+$('.popup .inner').click(function(e){
+   e.stopPropagation();
+});
+
+$('.popup .close').click(function(e){
+    e.preventDefault();
+   $(this).parentsUntil('.popup').parent().fadeOut();
+});
+
+$(document).keydown(function(e){
+    if(e.keyCode == 27){
+        $('.popup').fadeOut();
+    }
+});
+
+$(function(){
+    $("#dialog").dialog({
+        autoOpen:false
     });
+
+    $('#showAlert').on("click", function(){
+        $("#dialog").dialog("open");
+    });
+}); 
+
