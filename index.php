@@ -72,37 +72,9 @@ include "./includes/html-start.php";
                         <a data-text="شارك فصوتك يحدث فرقاً" data-link="http://www.doitonline.se/"
                             class="whatsapp w3_whatsapp_btn w3_whatsapp_btn_large">مشاركة</a>
                     </div>
-    
-                    <!--Start popup-->
-                    <div id="dialog" title="thanks">
-                    </div>
-                    <span class="show-popup" data-popup=".first-popup">Show 1set Popup</span>
-                    <!--End popup-->
-                </div>
 
-                <!--Start Popup-->
-            <div class="popup first-popup">
-                <div class="inner">
-                    <h2>First Popup</h2><br>
-                    <p>  
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    corrupti magnam sequi ad!
-                    </p>
-                    <button class="close">Close</button> 
                 </div>
-            </div>
-            <div class="popup second-popup">
-                <div class="inner">
-                    <h2>Second Popup</h2><br>
-                    <p>  
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    corrupti magnam sequi ad!
-                    </p>
-                    <button class="close">Close</button> 
-                </div>
-            </div>
-    
-            <!--End Popup-->
+                
             </div>
 
         </div>  
