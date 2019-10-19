@@ -1,8 +1,13 @@
 <?php
 include "./includes/html-start.php";
 ?>
-<h1>شكراً لكم على المشاركة</h1>
-<h6>إذا كنت ترغب بمتابعة كل مايتعلق بهذا الشأن يمكنك ترك رقمك أو إيميلك وسنعلمك بكل جديد</h6>
+
+<div class="row">
+    <div class="col thanks">
+        <h1>شكراً لكم على المشاركة</h1>
+        <h1>سنوافيكم بكل ما يستجد بخصوص هذه المبادرة</h1>
+    </div>
+</div>
 
 <?php
 include "./includes/footer.php";

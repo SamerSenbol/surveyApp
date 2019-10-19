@@ -14,7 +14,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $sql="INSERT INTO `users`(`Email`, `Tel`, `Date`, `ipAddress` ) VALUES ('$Email', '$Tel' ,'$date' ,'$line')";
     $data = mysqli_query($con, $sql);
       if($data){
-     /* header("Location: thanks.php");  Redirect browser */
+    header("Location: thanks.php");  /* Redirect browser  */
       exit();
     }
     else{
