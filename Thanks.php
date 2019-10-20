@@ -10,5 +10,4 @@ include "./includes/html-start.php";
 </div>
 
 <?php
-include "./includes/footer.php";
 include "./includes/html-end.php";

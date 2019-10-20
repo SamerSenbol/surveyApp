@@ -4,8 +4,8 @@ include "./includes/html-start.php";
     <div class="container">
         <div class="row" id="hader">
 
-            <div class="col-sm-12">
-                <img src="./images/header.jpg" class="img-responsive" width= "100%">
+            <div class="col-12">
+                <img src="./images/header.jpg">
             </div>
 
         </div>
@@ -79,5 +79,4 @@ include "./includes/html-start.php";
 
         </div>  
         <?php
-include "./includes/footer.php";
 include "./includes/html-end.php";
