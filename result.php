@@ -2,6 +2,7 @@
 include "./includes/html-start.php";
 include_once 'db.php';
 ?>
+
 <table class="table table-bordered table-hover">
     <thead>
         <tr>

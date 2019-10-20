@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #DDDDDD;
     padding: 12px;
 }
 
@@ -76,6 +76,7 @@ img{
     margin-top: -125px;
     border-radius: 5px;
 }
+
 .w3_whatsapp_btn {
     background-image: url('icon.png');
     border: 1px solid rgba(0, 0, 0, 0.1);
