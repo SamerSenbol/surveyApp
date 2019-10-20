@@ -68,6 +68,22 @@ footer h5{
     border-color:white;
     padding: 4px;
 }
+
+.thanks{
+    color: blue;
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    left: 50%;
+    position: fixed;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -125px;
+    border-radius: 5px;
+}
 .w3_whatsapp_btn {
     background-image: url('icon.png');
     border: 1px solid rgba(0, 0, 0, 0.1);

@@ -3,9 +3,9 @@ include "./includes/html-start.php";
 ?>
 
 <div class="row">
-    <div class="col thanks">
-        <h1>شكراً لكم على المشاركة</h1>
-        <h1>سنوافيكم بكل ما يستجد بخصوص هذه المبادرة</h1>
+    <div class="col-12 thanks">
+        <br><h4>شكراً لكم على المشاركة</h4><br>
+        <h4>سنوافيكم بكل ما يستجد بخصوص هذه المبادرة</h4>
     </div>
 </div>
 
