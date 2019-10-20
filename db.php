@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect('doitonline.se.mysql','doitonline_se_surveyapp','123456','doitonline_se_surveyapp');
+$con = mysqli_connect('localhost','root','','surveyApp');
 
 
 if(!$con){
