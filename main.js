@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+// teST
     var isMobile = {
     Android: function() {
     return navigator.userAgent.match(/Android/i);
